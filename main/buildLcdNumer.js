@@ -1,8 +1,8 @@
-var nums=require('./splitNumber.js');
+var nums = require('./splitNumber.js');
 
 
 function buildLcdNumber() {
-    var allLcds=describeLcd();
+    var allLcds = describeLcd();
     var numbers = nums.splitNumber();
     var lcdNumbers = [];
 
@@ -90,4 +90,4 @@ function describeLcd() {
     ];
 }
 
-exports.buildLcdNumber=buildLcdNumber;
+exports.buildLcdNumber = buildLcdNumber;

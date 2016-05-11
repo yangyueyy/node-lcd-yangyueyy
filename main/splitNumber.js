@@ -1,6 +1,5 @@
-
 function splitNumber() {
-   var number = '910'.split('');
+    var number = '910'.split('');
     return number;
 }
-exports.splitNumber=splitNumber;
+exports.splitNumber = splitNumber;

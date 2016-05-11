@@ -2,11 +2,6 @@ var  printLcd=require('./../main/printLcd.js');
 
 describe('Lcd-digits', function () {
 
-
-    beforeEach(function () {
-
-    });
-
     it('should print correct LCD', function () {
 
        printLcd.printLcd();
